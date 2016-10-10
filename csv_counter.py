@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 
-# *Goal:*
-# Analyze the data in a CSV file.
 
-# *Task:*
 # Given a CSV with arbitrary fields:
 #   - Find and show 5 most common values in each field, and their counts
 

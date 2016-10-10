@@ -1,7 +1,7 @@
 csv-counter
 ===========
 
-Unicode CSV reader example. Reads in data and keeps counters.
+Unicode CSV reader example. For every field in the CSV, count the occurrences of each unique value and display the 5 most common.
 
 Development
 -----------
