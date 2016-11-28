@@ -52,6 +52,6 @@ if __name__ == "__main__":
     infile = 'data/bps_raw_data_2013_revised_en.csv'
     counters = count_data(infile)
 
-    # For every counter, print out the top 3
+    # For every counter, print out the top results
     for fieldname in sorted(counters.keys()):
         print('%s: %s' % (fieldname, counters[fieldname].most_common(5)))
